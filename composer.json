@@ -1,5 +1,5 @@
 {
-  "name": " kamelher/laravel-settings ",
+  "name": "kamelher/laravel-settings",
   "description": "Simple Settings package for laravel application",
   "keywords": [
     "Laravel",
@@ -19,7 +19,6 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-
   "require": {
     "php": ">=5.6.4"
   },
