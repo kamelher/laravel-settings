@@ -3,7 +3,7 @@
 namespace KAMEL\Settings\app\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use KAMEL\Settings\App\SettingsHelper;
+use KAMEL\Settings\app\SettingsHelper;
 
 class Setting extends Facade
 {
