@@ -14,12 +14,12 @@ Supports laravel >= 5.2
 Add the following to your composer file.
 
 `
-"smatar/laravel-settings": "dev-master"
+"kamelher/laravel-settings": "dev-master"
 `
 
 or run the following command:
 ```
-composer require smatar/laravel-settings
+composer require kamelher/laravel-settings
 ```
 
 2) config/app.php [no need for this step in laravel 5.5 because of packages auto discovery feature]
@@ -29,7 +29,7 @@ add your new provider to the providers array:
 ```
 'providers' => [
     // ...
-   	\SMATAR\Settings\App\Providers\SettingServiceProvider::class
+   	\KAMEL\Settings\app\Providers\SettingServiceProvider::class
     // ...
   ],
 ```
@@ -39,7 +39,7 @@ add your new provider to the providers array:
 ```
 'aliases' => [
 	// ...
-	'Settings' => \SMATAR\Settings\App\Facades\Setting::class
+	'Settings' => \KAMEL\Settings\app\Facades\Setting::class
     // ...
 ],
 ```
@@ -148,10 +148,6 @@ such as:
 
 uploads/settings/site_logo.png
 
-## demo
 
-the demo site:
-
-[http://settings.esolution-inc.com/](http://settings.esolution-inc.com/)
 
 ===================================
