@@ -1,6 +1,6 @@
 <?php
 
-namespace KAMEL\Settings\App\Providers;
+namespace KAMEL\Settings\app\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

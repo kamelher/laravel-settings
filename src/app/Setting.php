@@ -1,6 +1,6 @@
 <?php
 
-namespace SMATAR\Settings\App;
+namespace KAMEL\Settings\app;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -26,10 +26,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "KAMEL\\Settings\\app\\providers\\SettingServiceProvider"
+        "KAMEL\\Settings\\app\\Providers\\SettingServiceProvider"
       ],
       "aliases": {
-        "Settings": "KAMEL\\Settings\\app\\facades\\Setting"
+        "Settings": "KAMEL\\Settings\\app\\Facades\\Setting"
       }
     }
   }

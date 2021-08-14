@@ -1,12 +1,12 @@
 <?php
 
-namespace SMATAR\Settings\App\Http\Controllers;
+namespace KAMEL\Settings\app\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
-use SMATAR\Settings\App\Http\Requests\SettingRequest;
-use SMATAR\Settings\App\Setting;
+use KAMEL\Settings\app\Http\Requests\SettingRequest;
+use KAMEL\Settings\app\Setting;
 
 class SettingsController extends Controller
 {

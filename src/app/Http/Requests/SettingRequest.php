@@ -1,6 +1,6 @@
 <?php
 
-namespace SMATAR\Settings\App\Http\Requests;
+namespace KAMEL\Settings\app\Http\Requests;
 
 
 use Illuminate\Foundation\Http\FormRequest;

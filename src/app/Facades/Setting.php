@@ -1,9 +1,9 @@
 <?php
 
-namespace SMATAR\Settings\App\Facades;
+namespace KAMEL\Settings\app\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use SMATAR\Settings\App\SettingsHelper;
+use KAMEL\Settings\App\SettingsHelper;
 
 class Setting extends Facade
 {
